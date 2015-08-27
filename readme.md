@@ -43,9 +43,9 @@ Finally, this template achieves some of its configuration changes by overwriting
 I intend to add more templates as time goes on-- if you have one you would like to add to the project, fork the repo, spin it up and send me a pull request!  Thanks!
 
 ## Quick Resources
-[Vagrant Documentation](https://www.vagrantup.com/)
-[Vagrant - Getting Started](https://docs.vagrantup.com/v2/getting-started/index.html)
-[Vagrant - Command Line Interface](https://docs.vagrantup.com/v2/cli/index.html)
++ [Vagrant Documentation](https://www.vagrantup.com/)
++ [Vagrant - Getting Started](https://docs.vagrantup.com/v2/getting-started/index.html)
++ [Vagrant - Command Line Interface](https://docs.vagrantup.com/v2/cli/index.html)
 
 ## License
 You are welcome to use any of the templates in this repo for your own projects.  Attribution is appreciated but not necessary.
