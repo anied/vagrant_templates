@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Vagrant Single Page App Basic Template</title>
+</head>
+<body>
+	<h1>It works!!!</h1>
+	<p>If you are seeing this, then your Vagrant box is properly provisioned.</p>
+	<p>In the provision of your Vagrant box:</p>
+	<ul>
+		<li>Apache was installed</li>
+		<li>Apache was configured to allow configuration overrides</li>
+		<li>Apache was configured to point towards your 'src' directory in this project</li>
+	</ul>
+	<p>(This configuration was partially accomplished by replacing the contents of the apache2.conf file on the Vagrant box with the contents of the apache_edited.txt file in the project directory.  This means that if you wanted to make further tweaks to the Apache settings, you could make them in apache_edited.txt and simply re-provision the Vagrant box!)</p>
+	<p>Finally, an .htaccess file was included in the src directory to configure Apache to redirect any requests for files that don't exist back to index.html.  Go ahead, try it!  Type some crazy path into the address bar!  In fact, here's a <a href="/any_random_path.html">link</a>-- give it a try!  It should redirect right back to this same file.</p>
+	<p>So go ahead and get started-- you can leverage an MV* library like Backbone to capture routes and spin up a single page application on this stack.  Make sure that when you push it up to a webserver you include the .htaccess file to redirect paths.  Clear out this index.html file and replace it with your apps point of entry.</p>
+</body>
+</html>
